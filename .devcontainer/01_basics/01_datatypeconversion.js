@@ -31,6 +31,38 @@ let num = 45;
 
 let stringNum = String(num);
 
-console.log(stringNum);
+// console.log(stringNum);
 
-console.log(typeof stringNum);
+// console.log(typeof stringNum);
+
+// ***************************Operations****************
+
+let value = 4;
+let negValue = -value;
+
+//console.log(negValue);
+
+let str1 = "Hello";
+let str2 = " Ayush";
+
+let concate = str1 + str2;
+
+// console.log(concate);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log(+true);
+// console.log(+"");
+
+let num1, num2, num3;
+
+num1 = num2 = num3 = 2 + 2;
+
+let gameCounter = 100;
+++gameCounter ;
+
+console.log(gameCounter);
+
